@@ -1,0 +1,4 @@
+range,min_employees,max_employees,fee
+"More than 800 employees credited",801,,0.007
+"Between 101 and 800 employees credited",101,800,0.0075
+"100 employees or less credited",0,100,0.009

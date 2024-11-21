@@ -40,3 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+seeds:
+  Analytics:
+    +file_format: csv
+    +quote_columns: true

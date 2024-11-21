@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: sources
+      database: test_swile_source
+      schema: public
+      tables:
+        - name: order_credit_item
+        - name: employee
+        - name: organization
+        - name: wallet
+      
